@@ -12,7 +12,6 @@ def load_game():
     while game_num > 3 or game_num < 1:
         print("Please choose only a number between 1 and 3!")
         game_num = int(input("Enter: 1- Memory Game, 2- Guess Game, 3- Currency Roulette: \n"))
-        continue
 
 
 def difficulty_level():
@@ -20,5 +19,4 @@ def difficulty_level():
     while difficulty > 5 or difficulty < 1:
         print("Please choose only a number between 1 and 5!")
         difficulty = int(input("Please choose game difficulty from 1 to 5: \n"))
-        continue
     return difficulty
